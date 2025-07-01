@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1ede8; /* Light beige background */
+    flex-direction: column; /* To stack header and footer */
+}
+
+/* Header - "CHRONO" logo at the top */
+.header-logo {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #333; /* Darker text for contrast */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.wrapper {
+    width: 420px;
+    background: #fff; /* White background for the login box */
+    border-radius: 15px; /* More rounded corners */
+    padding: 30px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* Center content inside the box */
+}
+
+.wrapper h1 {
+    font-size: 2.3em; /* Slightly larger login title */
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px; /* Space below the title */
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0; /* Space between input fields */
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9; /* Light grey background for inputs */
+    border: 1px solid #ddd; /* Light border */
+    outline: none;
+    border-radius: 8px; /* Slightly rounded input fields */
+    font-size: 1.1em;
+    color: #333;
+    padding: 0 45px 0 20px; /* Adjust padding for icon */
+}
+
+.input-box input::placeholder {
+    color: #aaa; /* Lighter placeholder text */
+}
+
+.input-box .bx {
+    position: absolute;
+    right: 18px; /* Position icon inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #777; /* Grey icon color */
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin: -10px 0 25px; /* Adjust margin */
+}
+
+.remember-forgot label input {
+    accent-color: #333; /* Darker checkbox color */
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    color: #5b9bd5; /* Blue for the link */
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 50%; /* Adjusted button width */
+    height: 45px;
+    background: #fff; /* White background for button */
+    border: 1px solid #333; /* Dark border */
+    outline: none;
+    border-radius: 25px; /* Pill-shaped button */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #333; /* Dark text for button */
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+    margin-bottom: 20px; /* Adicionado margem abaixo do botão para separar do link de cadastro */
+}
+
+.wrapper .btn:hover {
+    background: #333; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Novo estilo para o link de registro */
+.wrapper .register-link {
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+    margin-top: 15px; /* Espaço acima do texto de registro */
+}
+
+.wrapper .register-link p a {
+    color: #5b9bd5; /* Cor azul para o link */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper .register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer - "© 2025 - 2025 CHRONO TEAM" and GitHub icon */
+.footer {
+    position: absolute;
+    bottom: 30px; /* Adjust as needed */
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.footer .github-icon {
+    font-size: 1.5em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.footer .github-icon:hover {
+    color: #333; /* Darker on hover */
+}
+
+.footer p {
+    margin-top: 5px;
+}

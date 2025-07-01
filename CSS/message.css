@@ -1,0 +1,23 @@
+.success{
+    background-color: #d4edda;  /* verde claro */
+    color: #155724;             /* verde escuro para o texto */
+    border: 1px solid #c3e6cb;  /* borda verde mais forte */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.error{
+    background-color: #f8d7da;  /* vermelho claro */
+    color: #721c24;             /* vermelho escuro para o texto */
+    border: 1px solid #f5c6cb;  /* borda vermelho mais forte */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
