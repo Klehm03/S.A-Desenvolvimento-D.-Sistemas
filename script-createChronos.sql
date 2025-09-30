@@ -1,6 +1,5 @@
-
-
-
+CREATE DATABASE Chronos2;
+USE Chronos2;
 
 CREATE TABLE tb_clientes(
 	id INT AUTO_INCREMENT,
